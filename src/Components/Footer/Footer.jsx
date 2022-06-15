@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./footer.css";
 
 import iconWindowns from "../../Images/windowns.png";
@@ -8,11 +8,11 @@ import iconScreens from "../../Images/screens.png";
 import iconExplorer from "../../Images/explorer.png";
 
 export default function Footer() {
-  const dataNow = () => {
-    const data = new Date();
+  const [dateState, setDateState] = useState(new Date());
 
-    return data;
-  };
+  useEffect(() => {
+    setInterval(() => setDateState(new Date()), 1000);
+  }, []);
 
   return (
     <div className="footer">
@@ -57,10 +57,18 @@ export default function Footer() {
         <li>
           <img src={iconAudio} alt="Icon Audio" className="icon-audio-img" />
         </li>
-        <li>POR</li>
+        <div className="container-language">
+          <li>POR</li>
+          <li>PTB2</li>
+        </div>
         <div className="container-date">
-          <li>{`${dataNow().getHours()}:${dataNow().getMinutes()}`}</li>
-          <li>{dataNow().toLocaleDateString()}</li>
+          <li>
+            {dateState.toLocaleString("pt-BR", {
+              hour: "numeric",
+              minute: "numeric",
+            })}
+          </li>
+          <li>{dateState.toLocaleDateString()}</li>
         </div>
       </span>
     </div>

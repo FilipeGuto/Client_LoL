@@ -85,6 +85,11 @@ input::placeholder {
 .icon-audio-img {
   width: 1rem;
   height: 0.7rem;
+  margin-right: 0.3rem;
+}
+
+.container-language {
+  font-size: 0.6rem;
 }
 
 .container-date {
