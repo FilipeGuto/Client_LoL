@@ -1,0 +1,137 @@
+.modal {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-modal {
+  width: 60%;
+  height: 75%;
+  position: absolute;
+  background-color: #fff;
+  color: #000;
+  display: flex;
+}
+
+.modal-form {
+  height: 100%;
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+
+.modal-img {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.modal-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.modal-img .close {
+  right: 0.1%;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  cursor: pointer;
+  height: 1.3rem;
+}
+
+.logo-riot {
+  width: 5rem;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.btn-login {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 10px;
+  border-radius: 1px solid gray;
+  background-color: transparent;
+  margin-top: 10rem;
+}
+
+.box-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+
+.btn-register {
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.box-btn {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.btn-face {
+  width: 3.5rem;
+  border-radius: 3px;
+  background-color: #3b5998;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 1.3rem;
+}
+
+.btn-google {
+  width: 3.5rem;
+  border-radius: 3px;
+  background-color: #fff;
+  border: 1px solid rgb(220, 220, 220);
+  cursor: pointer;
+  height: 1.3rem;
+  color: rgb(red, green, blue)
+}
+
+.btn-apple {
+  border-radius: 3px;
+  width: 3.5rem;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  height: 1.3rem;
+}
