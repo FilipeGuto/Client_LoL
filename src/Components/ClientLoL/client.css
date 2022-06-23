@@ -3,6 +3,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'FF Mark W05', sans-serif;
 }
 
 .container-modal {
@@ -18,9 +19,9 @@
   height: 100%;
   width: 30%;
   display: flex;
-  justify-content: space-evenly;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .modal-img {
@@ -36,7 +37,7 @@
 }
 
 .modal-img .close {
-  right: 0.1%;
+  right: 0%;
   color: #fff;
   font-weight: bold;
   font-size: 1rem;
@@ -47,91 +48,19 @@
   height: 1.3rem;
 }
 
+.close:hover {
+  background-color: #ec2300;
+}
+
 .logo-riot {
   width: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 1.5rem;
 }
 
 .form-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.form-label {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-}
-
-.btn-login {
-  width: 2rem;
-  height: 2rem;
-  border-radius: 10px;
-  border-radius: 1px solid gray;
-  background-color: transparent;
-  margin-top: 10rem;
-}
-
-.box-register {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.text-register {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-transform: uppercase;
-  font-size: 0.7rem;
-}
-
-.btn-register {
-  border: none;
-  background-color: transparent;
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  cursor: pointer;
-}
-
-.box-btn {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-}
-
-.btn-face {
-  width: 3.5rem;
-  border-radius: 3px;
-  background-color: #3b5998;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  height: 1.3rem;
-}
-
-.btn-google {
-  width: 3.5rem;
-  border-radius: 3px;
-  background-color: #fff;
-  border: 1px solid rgb(220, 220, 220);
-  cursor: pointer;
-  height: 1.3rem;
-  color: rgb(red, green, blue)
-}
-
-.btn-apple {
-  border-radius: 3px;
-  width: 3.5rem;
-  background-color: #000;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  height: 1.3rem;
+  justify-content: space-around;
 }
