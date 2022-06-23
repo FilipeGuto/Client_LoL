@@ -9,7 +9,7 @@ import "./form.css";
 import iconGoogle from "../../Images/LOL/iconGoogle.png";
 
 export default function FormUser() {
-  const { setNewUser } = useContext(Context);
+  const { setLogo, setNewUser } = useContext(Context);
   const [name, setName] = useState("");
   const [password, setPassword] = useState("");
 
@@ -21,6 +21,7 @@ export default function FormUser() {
 
     setNewUser(data);
     document.getElementById('btn-close').click();
+    setLogo(true);
   };
 
   return (

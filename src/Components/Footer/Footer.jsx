@@ -1,9 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./footer.css";
 
-import iconWindowns from "../../Images/windowns.png";
-import iconWifi from "../../Images/wifi.png";
-import iconAudio from "../../Images/audio.png";
 import iconScreens from "../../Images/screens.png";
 import iconExplorer from "../../Images/explorer.png";
 
@@ -18,11 +15,7 @@ export default function Footer() {
     <div className="footer">
       <span className="container-w">
         <div className="icon-w">
-          <img
-            src={iconWindowns}
-            alt="icon Windowns"
-            className="icon-windowns-img"
-          />
+        <i className="fa-brands fa-windows icon-windows-img fa-lg"></i>
         </div>
         <div className="input-w">
           <input
@@ -52,14 +45,14 @@ export default function Footer() {
       </span>
       <span className="container-info">
         <li>
-          <img src={iconWifi} alt="Icon Wifi" className="icon-wifi-img" />
+        <i className="fa-solid fa-wifi fa-xs"></i>
         </li>
         <li>
-          <img src={iconAudio} alt="Icon Audio" className="icon-audio-img" />
+        <i className="fa-solid fa-volume-low fa-sm"></i>
         </li>
         <div className="container-language">
           <li>POR</li>
-          <li>PTB2</li>
+          <li>PTBR</li>
         </div>
         <div className="container-date">
           <li>

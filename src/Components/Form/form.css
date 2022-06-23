@@ -13,12 +13,12 @@
   font-weight: bold !important;
 }
 
-input {
+.box-form input {
   border: 2px solid transparent !important;
   border-radius: 3px !important;
 }
 
-input:focus {
+.box-form input:focus {
   border: 2px solid black !important;
   border-radius: 3px !important;
 }

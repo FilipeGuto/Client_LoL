@@ -72,3 +72,16 @@
 .icon-l-img {
   width: 5.2rem;
 }
+
+.logo-LoL {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.lol-img {
+  width: 22;
+  height: 12rem;
+  margin-right: 2rem;
+}
