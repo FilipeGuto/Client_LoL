@@ -3,40 +3,199 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'FF Mark W05', sans-serif;
+  font-family: "FF Mark W05", sans-serif;
 }
 
 .container-modal-lol {
   width: 60%;
-  height: 75%;
+  height: 80%;
   position: absolute;
-  background-color: #fff;
-  display: flex;
-  flex-direction: column;
+  background-image: url(https://t.ctcdn.com.br/neIjGi_x_7HaYDaADFbSXfoRkaU=/1400x788/smart/i465600.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.nav-lol {
+.box-lol {
+  width: 100%;
+}
+
+.header {
+  height: 5rem;
+  width: 100%;
+  background-color: rgba(24, 24, 24, 0.5);
+  border-bottom: 1.5px solid #d4bf8f;
+}
+
+.box-header-lol {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: skyblue;
-  width: 100%;
   height: 5rem;
 }
 
-.icon-lol {
-  width: 3.5rem;
+.box-btn-lol, .header-game {
+  font-weight: 900;
+  color: #d4bf8f;
 }
 
-.homepage {
+.header-game {
+  width: 40%;
+  height: 100%;
   display: flex;
-  background-color: lightcoral;
+  align-items: center;
+}
+
+.box-game {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.box-game:hover {
+  background-color: rgba(241, 241, 241, 0.2);
+  transition: background-color 0.2s;
+}
+
+.btn-play {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.img-play {
+  width: 10rem;
+}
+
+.content {
+  width: calc(100% - 17%);
+  height: calc(100% - 5rem);
+  background-color: transparent;
+  float: left;
+}
+
+.nav-right {
+  height: 100%;
+  width: 17%;
+  background-color: #010a13;
+  float: right;
+}
+
+.box-btn-lol {
+  border-bottom: 1.5px solid #d4bf8f;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-user {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.box-status {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.user-name {
+  color: #fff;
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+
+.user-status {
+  color: green;
+  font-size: 0.8rem;
+}
+
+.btn-close-lol {
+  border: transparent;
+  background-color: transparent;
+  color: #d4bf8f;
+  margin-right: 0.2rem;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.btn-close-lol:hover {
+  background-color: #ec2300;
+}
+
+.img-user {
+  width: 5rem;
+}
+
+.header-user {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-right: 1rem;
   height: 100%;
 }
 
-.teste {
-  background-color: cadetblue;
+.box-img-user {
   display: flex;
-  width: 20%;
+  align-items: center;
+  height: 100%;
+  width: 20rem;
+}
+
+.box-gold-user {
+  gap: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 100%;
 }
+
+.box-ea:hover, .box-rp:hover {
+  background-color: rgba(230, 188, 83, 0.3);
+  border-radius: 0.2rem;
+}
+
+.box-rp, .box-ea {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+  gap: 0.5rem;
+  letter-spacing: 0.1px;
+}
+
+.rp {
+  width: 1.3rem;
+}
+
+.ea {
+  width: 1.3rem;
+}
+
+.row-vertical {
+  width: 0.01px;
+  padding: 0;
+  height: 60px;
+  background-color: #d4bf8f;
+  color: #d4bf8f;
+}
+
+.box-perfil-lol {
+  width: 5rem;
+  margin-left: 0.2rem;
+  margin-right: 0.2rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-perfil-lol:hover {
+  background-color: rgba(241, 241, 241, 0.2);
+  transition: background-color 0.2s;
+}
+
