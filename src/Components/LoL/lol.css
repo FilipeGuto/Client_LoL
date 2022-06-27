@@ -53,6 +53,22 @@
   justify-content: space-around;
 }
 
+.choose {
+  transition: background-color 0.2s;
+  display: none;
+}
+
+.box-game:hover .choose{
+  display: flex;
+  top: 0;
+  position: absolute;
+  width: 0; 
+  height: 0; 
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 14px solid #bf9036;
+}
+
 .box-game:hover {
   background-color: rgba(241, 241, 241, 0.2);
   transition: background-color 0.2s;
@@ -78,12 +94,12 @@
 .nav-right {
   height: 100%;
   width: 17%;
-  background-color: #010a13;
+  background-color: #021426;
   float: right;
 }
 
 .box-btn-lol {
-  border-bottom: 1.5px solid #d4bf8f;
+  border-bottom: 1.5px solid #d0a85c;
   height: 5rem;
   display: flex;
   justify-content: space-between;
@@ -117,7 +133,7 @@
 .btn-close-lol {
   border: transparent;
   background-color: transparent;
-  color: #d4bf8f;
+  color: #bf9036;
   margin-right: 0.2rem;
   font-weight: bold;
   font-size: medium;
@@ -143,7 +159,7 @@
   display: flex;
   align-items: center;
   height: 100%;
-  width: 20rem;
+  width: 14rem;
 }
 
 .box-gold-user {
@@ -154,9 +170,34 @@
   height: 100%;
 }
 
-.box-ea:hover, .box-rp:hover {
-  background-color: rgba(230, 188, 83, 0.3);
-  border-radius: 0.2rem;
+.rp-name {
+  transition: background-color 0.2s;
+  display: none;
+}
+
+.box-rp:hover .rp-name{
+  display: flex;
+  top: 2.6rem;
+  position: absolute;
+  border: 1px solid #bf9036;
+  background-color: #021426;
+  padding: 0.5rem;
+  font-size: 0.6rem;
+}
+
+.ea-name {
+  transition: background-color 0.2s;
+  display: none;
+}
+
+.box-ea:hover .ea-name{
+  display: flex;
+  top: 4.3rem;
+  position: absolute;
+  border: 1px solid #bf9036;
+  background-color: #021426;
+  padding: 0.5rem;
+  font-size: 0.6rem;
 }
 
 .box-rp, .box-ea {
@@ -177,21 +218,23 @@
 }
 
 .row-vertical {
-  width: 0.01px;
-  padding: 0;
-  height: 60px;
-  background-color: #d4bf8f;
-  color: #d4bf8f;
+  width: 0.1rem;
+  border: none;
+  height: 4rem;
+  background-color: #bf9036;
+  color: #bf9036;
 }
 
 .box-perfil-lol {
   width: 5rem;
-  margin-left: 0.2rem;
-  margin-right: 0.2rem;
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.img-perfil {
+  width: 1.5rem;
 }
 
 .box-perfil-lol:hover {
@@ -199,3 +242,6 @@
   transition: background-color 0.2s;
 }
 
+.box-chat-lol {
+  height: calc(100% - 5rem);
+}

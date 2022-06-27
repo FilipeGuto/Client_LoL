@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import Context from "../../Context/Context";
+import Chat from "../Chat/Chat";
 import "./lol.css";
 
 import play from "../../Images/LOL/jogar.png";
@@ -40,42 +41,54 @@ export default function LoL() {
               </button>
             </div>
           </div>
+          <div className="box-chat-lol">
+            <Chat />
+          </div>
         </div>
         <div className="header-lol">
           <div className="header">
             <span className="box-header-lol">
               <div className="header-game">
+                <button className="btn-play">
+                  <img src={play} alt="" className="img-play" />
+                </button>
                 <div className="box-game">
-                  <button className="btn-play">
-                    <img src={play} alt="" className="img-play" />
-                  </button>
+                  <div className="choose" />
+                  INÍCIO
                 </div>
-                <div className="box-game">INICIO</div>
-                <div className="box-game">TFT</div>
-                <div className="box-game">CLASH</div>
+                <div className="box-game">
+                  <div className="choose" />
+                  TFT
+                </div>
+                <div className="box-game">
+                  <div className="choose" />
+                  CLASH
+                </div>
               </div>
               <div className="header-user">
                 <span className="box-img-user">
                   <div className="box-perfil-lol">
-                    <img src={userPerfil} alt="" />
+                    <img src={userPerfil} alt="" className="img-perfil"/>
                   </div>
                   <div className="box-perfil-lol">
-                    <img src={backpack} alt="" />
+                    <img src={backpack} alt="" className="img-perfil"/>
                   </div>
                   <div className="box-perfil-lol">
-                    <img src={espolio} alt="" />
+                    <img src={espolio} alt="" className="img-perfil"/>
                   </div>
                   <div className="box-perfil-lol">
-                    <img src={store} alt="" />
+                    <img src={store} alt="" className="img-perfil"/>
                   </div>
                 </span>
                 <hr className="row-vertical"></hr>
                 <span className="box-gold-user">
                   <div className="box-rp">
+                    <div className="rp-name">RP</div>
                     <img src={RP} alt="" className="rp" />
                     1500
                   </div>
                   <div className="box-ea">
+                    <div className="ea-name">Essência Azul</div>
                     <img src={EA} alt="" className="ea" />
                     100MIL
                   </div>
