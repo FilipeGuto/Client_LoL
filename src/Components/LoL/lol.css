@@ -10,9 +10,105 @@
   width: 60%;
   height: 80%;
   position: absolute;
-  background-image: url(https://t.ctcdn.com.br/neIjGi_x_7HaYDaADFbSXfoRkaU=/1400x788/smart/i465600.jpeg);
+  background-image: url("https://i0.wp.com/gamehall.com.br/wp-content/uploads/2015/08/League-of-Legends-Wallpaper-Full-HD-Akali-vs-Bar%C3%A3o-1920x1080.jpg?ssl=1");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.page-initial {
+  height: calc(100% - 6rem);
+  width: calc(100% - 18%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container-description {
+  width: 40%;
+  margin-left: 1rem;
+  padding: 1rem;
+}
+
+.container-description h1{
+  color: #f2e7d3;
+  text-transform: uppercase;
+  width: 80%;
+}
+
+.container-description p{
+  color: #ceb06c;
+  width: 60%;
+  background-color: rgba(24, 24, 24, 0.5);
+}
+
+.btn-repo {
+  border: 2px solid #bf9036;
+  color: #bf9036;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  background-color: #021426;
+  cursor: pointer;
+}
+
+.btn-repo:hover {
+  background-color: rgba(212,191,143, 0.5);
+}
+
+.container-img-project {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.container-img-project:hover {
+  background-color: rgba(24, 24, 24, 0.5);
+}
+
+.link-projetos {
+  text-decoration: none;
+}
+
+.box-img-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-img-title p{
+  color: #ceb06c;
+  text-align: center;
+}
+
+.img-project {
+  width: 60%;
+  height: 60%;
+}
+
+.container-social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.btn-social {
+  color: #fff;
+}
+
+.btn-social:hover {
+  color: #bf9036;
+}
+
+.container-project {
+  height: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .box-lol {
@@ -134,14 +230,14 @@
 .btn-close-lol {
   border: transparent;
   background-color: transparent;
-  color: #bf9036;
+  color: #dbd9d5;
   margin-right: 0.2rem;
   font-weight: bold;
   font-size: medium;
 }
 
 .btn-close-lol:hover {
-  background-color: #ec2300;
+  color: #bf9036;
 }
 
 .img-user {

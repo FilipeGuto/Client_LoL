@@ -10,8 +10,11 @@ import espolio from "../../Images/LOL/espolio.png";
 import store from "../../Images/LOL/store.png";
 import RP from "../../Images/LOL/rp.png";
 import EA from "../../Images/LOL/essencia.png";
-
 import userIcon from "../../Images/LOL/user-yi.png";
+
+import NASA from "../../Images/Projects/NASA.png";
+import COIN from "../../Images/Projects/Coin.png";
+import PORTFOLIO from "../../Images/Projects/Portfolio.png";
 
 export default function LoL() {
   const { setLogged, newUser } = useContext(Context);
@@ -95,6 +98,81 @@ export default function LoL() {
                 </span>
               </div>
             </span>
+          </div>
+        </div>
+        <div className="page-initial">
+          <div className="container-description">
+            <h1>Muito obrigado por ver este meu projeto</h1>
+            <p>
+              Aqui em baixo tem alguns outros projetos que já fiz, além de links
+              para meu LinkedIn e GitHub
+            </p>
+            <a
+              href="https://github.com/FilipeGuto/Client_LoL"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="btn-repo">REPOSITÓRIO</button>
+            </a>
+          </div>
+          <div className="container-project">
+            <span className="container-img-project">
+              <div className="box-img-title">
+                <img src={NASA} alt="" className="img-project" />
+                <a
+                  href="https://project-nasa-api.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-projetos"
+                >
+                  <p>Projeto feito em React com API NASA</p>
+                </a>
+              </div>
+            </span>
+            <span className="container-img-project">
+              <div className="box-img-title">
+                <img src={COIN} alt="" className="img-project" />
+                <a
+                  href="https://deft-moxie-065dae.netlify.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-projetos"
+                >
+                  <p>Projeto Full Stack do 0 ao Deploy</p>
+                </a>
+              </div>
+            </span>
+            <span className="container-img-project">
+              <div className="box-img-title">
+                <img src={PORTFOLIO} alt="" className="img-project" />
+                <a
+                  href="https://portfolio-react-filipe-augusto.vercel.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="link-projetos"
+                >
+                  <p>Portfolio em React</p>
+                </a>
+              </div>
+            </span>
+            <div className="container-img-project container-social">
+              <a
+                href="https://www.linkedin.com/in/filipeguto/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-social"
+              >
+                <i className="fa-brands fa-linkedin fa-3x"></i>
+              </a>
+              <a
+                href="https://github.com/FilipeGuto"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-social"
+              >
+                <i className="fa-brands fa-github-square fa-3x"></i>
+              </a>
+            </div>
           </div>
         </div>
       </div>
