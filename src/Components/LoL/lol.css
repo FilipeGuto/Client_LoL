@@ -51,6 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
+  cursor: pointer;
 }
 
 .choose {
@@ -207,6 +208,7 @@
   font-weight: bold;
   gap: 0.5rem;
   letter-spacing: 0.1px;
+  cursor: pointer;
 }
 
 .rp {
@@ -240,6 +242,7 @@
 .box-perfil-lol:hover {
   background-color: rgba(241, 241, 241, 0.2);
   transition: background-color 0.2s;
+  cursor: pointer;
 }
 
 .box-chat-lol {

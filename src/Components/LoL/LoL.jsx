@@ -68,16 +68,16 @@ export default function LoL() {
               <div className="header-user">
                 <span className="box-img-user">
                   <div className="box-perfil-lol">
-                    <img src={userPerfil} alt="" className="img-perfil"/>
+                    <img src={userPerfil} alt="" className="img-perfil" />
                   </div>
                   <div className="box-perfil-lol">
-                    <img src={backpack} alt="" className="img-perfil"/>
+                    <img src={backpack} alt="" className="img-perfil" />
                   </div>
                   <div className="box-perfil-lol">
-                    <img src={espolio} alt="" className="img-perfil"/>
+                    <img src={espolio} alt="" className="img-perfil" />
                   </div>
                   <div className="box-perfil-lol">
-                    <img src={store} alt="" className="img-perfil"/>
+                    <img src={store} alt="" className="img-perfil" />
                   </div>
                 </span>
                 <hr className="row-vertical"></hr>
@@ -96,9 +96,6 @@ export default function LoL() {
               </div>
             </span>
           </div>
-        </div>
-        <div className="content">
-          <div></div>
         </div>
       </div>
     </div>
