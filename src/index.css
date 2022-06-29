@@ -2,3 +2,62 @@ body {
   margin: 0;
   top: 0;
 }
+
+@media screen and (min-width: 1300px) {
+  .display-invalid {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .app {
+    display: none;
+  }
+
+  .display-invalid {
+    background-color: #303030;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container-invalid {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #2066b0;
+  }
+
+  .title-invalid {
+    color: #fff;
+    font-size: 5rem;
+    margin-left: 1rem;
+  }
+
+  .subtitle-invalid {
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 1rem;
+  }
+
+  .box-qr {
+    display: flex;
+    align-items: center;
+    gap: 1rem
+  }
+
+  .container-invalid img {
+    width: 10rem;
+    margin-left: 1rem;
+  }
+
+  .subtitle-box-qr {
+    color: #fff;
+    font-size: 1.5rem;
+    width: 20%;
+  }
+}

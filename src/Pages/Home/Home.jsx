@@ -43,17 +43,13 @@ export default function Home() {
         {logo === true ? (
           <div className="logo-LoL">
             <img src={logoLoL} alt="" className="lol-img" />
-            {
-              setTimeout(() => {
-                setLogo(false)
-                setLogged(true)
-              }, 2000)
-            }
+            {setTimeout(() => {
+              setLogo(false);
+              setLogged(true);
+            }, 2000)}
           </div>
         ) : null}
-        {logged === true ? (
-          <LoL onClose={() => setOpen(false)} />
-        ) : null}
+        {logged === true ? <LoL onClose={() => setOpen(false)} /> : null}
       </div>
       <Footer />
     </div>
