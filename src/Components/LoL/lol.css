@@ -7,7 +7,8 @@
 }
 
 .container-modal-lol {
-  width: 60%;
+  margin-right: 8rem;
+  width: 75rem;
   height: 80%;
   position: absolute;
   background-image: url("https://i0.wp.com/gamehall.com.br/wp-content/uploads/2015/08/League-of-Legends-Wallpaper-Full-HD-Akali-vs-Bar%C3%A3o-1920x1080.jpg?ssl=1");
@@ -343,4 +344,12 @@
 
 .box-chat-lol {
   height: calc(100% - 5rem);
+}
+
+
+@media screen and (max-width: 1900px) {
+  .container-modal-lol {
+    width: 75rem;
+  margin: 0;
+  }
 }

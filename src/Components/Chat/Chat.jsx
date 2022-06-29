@@ -28,15 +28,15 @@ export default function Chat() {
         </div>
         <div className="container-status">
           <div className="style-status box-content">
-            <i class="fa-solid fa-caret-down fa-xs"></i>
+            <i className="fa-solid fa-caret-down fa-xs"></i>
             LEAGUE (0)
           </div>
           <div className="style-status box-content">
-            <i class="fa-solid fa-caret-down fa-xs"></i>
+            <i className="fa-solid fa-caret-down fa-xs"></i>
             LOL + (0)
           </div>
           <div className="style-status box-content">
-            <i class="fa-solid fa-caret-down fa-xs"></i>
+            <i className="fa-solid fa-caret-down fa-xs"></i>
             OFFLINE (3)
           </div>
           <div>
@@ -129,10 +129,10 @@ export default function Chat() {
           <i className="fa-solid fa-message"></i>
         </div>
         <div className="box-icon">
-          <i class="fa-solid fa-scroll"></i>
+          <i className="fa-solid fa-scroll"></i>
         </div>
         <div className="box-icon">
-          <i class="fa-solid fa-microphone"></i>
+          <i className="fa-solid fa-microphone"></i>
         </div>
         <div className="box-version">V12.10</div>
         <div className="box-icon">
